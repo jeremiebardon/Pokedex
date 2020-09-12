@@ -12,10 +12,9 @@ import './assets/fonts/Inconsolata-Regular.ttf';
 // Global Style
 import './assets/style/index.css';
 
-
 ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
-  document.getElementById('app')
+  document.getElementById('app'),
 );
