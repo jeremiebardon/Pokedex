@@ -1,5 +1,6 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
+import { test, expect } from 'jest-without-globals';
 
 import App from './App';
 
