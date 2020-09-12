@@ -2,15 +2,14 @@ module.exports = {
   verbose: true,
   rootDir: './',
   transform: {
-      '^.+\\.js?$': 'babel-jest',
+    '^.+\\.js?$': 'babel-jest',
   },
-  "coverageThreshold": ["json-summary"],
-  "coverageThreshold": {
-    "global": {
-      "branches": 80,
-      "functions": 80,
-      "lines": 80,
-      "statements": -10
-    }
-  }
-}
+  coverageThreshold: {
+    global: {
+      branches: 80,
+      functions: 80,
+      lines: 80,
+      statements: -10,
+    },
+  },
+};
