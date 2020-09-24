@@ -10,15 +10,47 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'index.js',
+    publicPath: '/',
   },
   module: {
     rules: [
       {
+        test: /\.less$/,
+        use: [{
+          loader: 'style-loader',
+        }, {
+          loader: 'css-loader', // translates CSS into CommonJS
+        }, {
+          loader: 'less-loader', // compiles Less to CSS
+          options: {
+            lessOptions: {
+              javascriptEnabled: true,
+            },
+          },
+        }],
+      },
+      {
         test: /\.(js|jsx)$/, use: 'babel-loader',
       },
       {
-        test: /.(css|scss)$/,
-        use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'],
+        // For pure CSS - /\.css$/i,
+        // For Sass/SCSS - /\.((c|sa|sc)ss)$/i,
+        // For Less - /\.((c|le)ss)$/i,
+        test: /\.((c|sa|sc)ss)$/i,
+        use: [
+          'style-loader',
+          {
+            loader: 'css-loader',
+            options: {
+              modules: true,
+              importLoaders: 1,
+              sourceMap: true,
+            },
+          },
+          {
+            loader: 'sass-loader',
+          },
+        ],
       },
       {
         test: /.(jpg|jpeg|png|gif|mp3|svg)$/,
@@ -44,6 +76,9 @@ module.exports = {
         ],
       },
     ],
+  },
+  devServer: {
+    historyApiFallback: true,
   },
   plugins: [
     new CleanWebpackPlugin(),
