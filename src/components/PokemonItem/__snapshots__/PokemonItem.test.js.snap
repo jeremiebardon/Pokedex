@@ -1,0 +1,138 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Item Element 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <a
+        href="/pokemons/ivysaur"
+      >
+        <div
+          class="ant-card ant-card-bordered ant-card-hoverable"
+          style="margin-bottom: 16px;"
+        >
+          <div
+            class="ant-card-cover"
+          >
+            <img
+              alt="ivysaur"
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png"
+            />
+          </div>
+          <div
+            class="ant-card-body"
+            style="padding: 8px; text-align: center;"
+          >
+            <h3
+              style="font-weight: 800; text-transform: Capitalize; margin-bottom: 8px; font-size: 16px;"
+            >
+              ivysaur
+            </h3>
+            <span
+              class="ant-tag"
+            >
+              grass
+            </span>
+            <span
+              class="ant-tag"
+            >
+              poison
+            </span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </body>,
+  "container": <div>
+    <a
+      href="/pokemons/ivysaur"
+    >
+      <div
+        class="ant-card ant-card-bordered ant-card-hoverable"
+        style="margin-bottom: 16px;"
+      >
+        <div
+          class="ant-card-cover"
+        >
+          <img
+            alt="ivysaur"
+            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png"
+          />
+        </div>
+        <div
+          class="ant-card-body"
+          style="padding: 8px; text-align: center;"
+        >
+          <h3
+            style="font-weight: 800; text-transform: Capitalize; margin-bottom: 8px; font-size: 16px;"
+          >
+            ivysaur
+          </h3>
+          <span
+            class="ant-tag"
+          >
+            grass
+          </span>
+          <span
+            class="ant-tag"
+          >
+            poison
+          </span>
+        </div>
+      </div>
+    </a>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
