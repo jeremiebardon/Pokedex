@@ -1,10 +1,196 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1599932311561" clover="3.2.0">
-  <project timestamp="1599932311561" name="All files">
-    <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1" elements="2" coveredelements="2" complexity="0" loc="1" ncloc="1" packages="1" files="1" classes="1"/>
-    <file name="App.js" path="C:\Users\Jere\Desktop\project\pokedex\src\containers\App\App.js">
+<coverage generated="1600902164807" clover="3.2.0">
+  <project timestamp="1600902164807" name="All files">
+    <metrics statements="121" coveredstatements="64" conditionals="40" coveredconditionals="24" methods="56" coveredmethods="27" elements="217" coveredelements="115" complexity="0" loc="121" ncloc="121" packages="10" files="13" classes="13"/>
+    <package name="api">
+      <metrics statements="6" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="5" coveredmethods="0"/>
+      <file name="config.js" path="C:\Users\Jere\Desktop\project\pokedex\src\api\config.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+      <file name="pokemonAPI.js" path="C:\Users\Jere\Desktop\project\pokedex\src\api\pokemonAPI.js">
+        <metrics statements="5" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <line num="4" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.App">
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <line num="4" count="1" type="stmt"/>
-    </file>
+      <file name="App.js" path="C:\Users\Jere\Desktop\project\pokedex\src\components\App\App.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="13" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.Loader">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="Loader.js" path="C:\Users\Jere\Desktop\project\pokedex\src\components\Loader\Loader.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.Page404">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="Page404.js" path="C:\Users\Jere\Desktop\project\pokedex\src\components\Page404\Page404.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.Pagination">
+      <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="Pagination.js" path="C:\Users\Jere\Desktop\project\pokedex\src\components\Pagination\Pagination.js">
+        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="17" count="4" type="stmt"/>
+        <line num="34" count="3" type="stmt"/>
+        <line num="42" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.PokemonItem">
+      <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="3"/>
+      <file name="PokemonItem.js" path="C:\Users\Jere\Desktop\project\pokedex\src\components\PokemonItem\PokemonItem.js">
+        <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="3"/>
+        <line num="11" count="6" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="40" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.PokemonStats">
+      <metrics statements="20" coveredstatements="20" conditionals="2" coveredconditionals="2" methods="14" coveredmethods="14"/>
+      <file name="PokemonInfos.js" path="C:\Users\Jere\Desktop\project\pokedex\src\components\PokemonStats\PokemonInfos.js">
+        <metrics statements="20" coveredstatements="20" conditionals="2" coveredconditionals="2" methods="14" coveredmethods="14"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="20" count="5" type="stmt"/>
+        <line num="25" count="3" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="33" count="12" type="stmt"/>
+        <line num="39" count="12" type="stmt"/>
+        <line num="44" count="30" type="stmt"/>
+        <line num="49" count="3" type="stmt"/>
+        <line num="50" count="2" type="stmt"/>
+        <line num="56" count="12" type="stmt"/>
+        <line num="62" count="12" type="stmt"/>
+        <line num="68" count="12" type="stmt"/>
+        <line num="72" count="12" type="stmt"/>
+        <line num="73" count="1" type="stmt"/>
+        <line num="77" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="85" count="3" type="stmt"/>
+        <line num="95" count="3" type="stmt"/>
+        <line num="108" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="features.pokemonProfil">
+      <metrics statements="34" coveredstatements="11" conditionals="8" coveredconditionals="3" methods="14" coveredmethods="1"/>
+      <file name="PokemonProfil.js" path="C:\Users\Jere\Desktop\project\pokedex\src\features\pokemonProfil\PokemonProfil.js">
+        <metrics statements="13" coveredstatements="7" conditionals="4" coveredconditionals="3" methods="7" coveredmethods="1"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="32" count="2" type="stmt"/>
+        <line num="33" count="2" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="36" count="2" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="51" count="2" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+      </file>
+      <file name="PokemonProfilSlice.js" path="C:\Users\Jere\Desktop\project\pokedex\src\features\pokemonProfil\PokemonProfilSlice.js">
+        <metrics statements="21" coveredstatements="4" conditionals="4" coveredconditionals="0" methods="7" coveredmethods="0"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="27" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="41" count="2" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="62" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="features.pokemons">
+      <metrics statements="37" coveredstatements="14" conditionals="9" coveredconditionals="6" methods="13" coveredmethods="3"/>
+      <file name="PokemonsList.js" path="C:\Users\Jere\Desktop\project\pokedex\src\features\pokemons\PokemonsList.js">
+        <metrics statements="14" coveredstatements="10" conditionals="9" coveredconditionals="6" methods="7" coveredmethods="3"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="25" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="63" count="2" type="stmt"/>
+      </file>
+      <file name="PokemonsSlice.js" path="C:\Users\Jere\Desktop\project\pokedex\src\features\pokemons\PokemonsSlice.js">
+        <metrics statements="23" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="0"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="46" count="2" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="65" count="0" type="stmt"/>
+        <line num="68" count="0" type="stmt"/>
+        <line num="69" count="0" type="stmt"/>
+        <line num="74" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="helpers">
+      <metrics statements="13" coveredstatements="7" conditionals="15" coveredconditionals="10" methods="2" coveredmethods="1"/>
+      <file name="index.js" path="C:\Users\Jere\Desktop\project\pokedex\src\helpers\index.js">
+        <metrics statements="13" coveredstatements="7" conditionals="15" coveredconditionals="10" methods="2" coveredmethods="1"/>
+        <line num="1" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="2" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="5" count="6" type="stmt"/>
+        <line num="11" count="6" type="cond" truecount="3" falsecount="1"/>
+        <line num="12" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="16" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+      </file>
+    </package>
   </project>
 </coverage>
