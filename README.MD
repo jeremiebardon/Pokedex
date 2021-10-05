@@ -9,7 +9,7 @@ npm i --save
 ```
 
 ```
-npm start
+npm run dev
 ```
 
 # Project URL
